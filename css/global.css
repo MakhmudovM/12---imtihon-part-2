@@ -56,6 +56,7 @@ body{
     margin-right: auto;
     padding-left: 165px;
     padding-right: 165px;
+   
 }
 
 /*HEDER START*/
@@ -184,3 +185,11 @@ color: #014E56;
     display: flex;
 }
 /*FOOTER END*/
+
+.line {
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 50px;
+    height: 4px;
+}
+
