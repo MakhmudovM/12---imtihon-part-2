@@ -1,7 +1,6 @@
 .hero__input__wrapper{
     width: 380px;
     height: 371px;
-    flex-shrink: 0;
     margin-top: 20px;
 }
 .hero__input__wrapper-data{
@@ -12,7 +11,6 @@
 .hero__input__wrapper-data input{
     width: 380px;
     height: 38px;
-    flex-shrink: 0;
     border: none;
     font-size: 17px;
     background-color: transparent;
@@ -28,15 +26,14 @@
 .hero__input__wrapper-data input::placeholder{
     position: absolute;
     bottom: 10px;
-    left: 0;
+   
     transition: all 0.3s ease;
-    pointer-events: none;
+   
     color: #FFF;
     font-family: Jost;
     font-size: 15px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 26px; /* 173.333% */
+    line-height: 26px;
     margin-top: 25px;
 }
 .hero__input__wrapper-data textarea{
@@ -50,15 +47,11 @@
 .hero__input__wrapper-data textarea::placeholder{
     position: absolute;
     bottom: 10px;
-    left: 0;
-    transition: all 0.3s ease;
-    pointer-events: none;
+    transition:  0.3s ;
     color: #FFF;
-    font-family: Jost;
     font-size: 15px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 26px; /* 173.333% */
+    line-height: 26px; 
     margin-top: 25px;
 }
 .hero__input__wrapper-btn{
@@ -69,7 +62,6 @@
     background: #FFF;
     color: #333136;
     text-align: center;
-    letter-spacing: 1px;
     text-transform: uppercase;
     transition: all 0.5s;
     margin-top: 40px;
@@ -91,32 +83,21 @@
 }
 
 .hero__contact-h2 {
-    font-family: Livvic;
     font-size: 64px;
     font-weight: 700;
     line-height: 100px;
-    letter-spacing: 0px;
     text-align: left;
     color: #FFFFFF;
 }
 .icons .hero__contact-h4 {
     margin-bottom: 30px;
-    font-family: Livvic;
     font-size: 32px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0px;
-    text-align: left;
-    font-family: Livvic;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0px;
     text-align: left;
     color: #F67E7E;
 }
-.icons {
-}
+
 .block {
     display: flex;
     align-items: center;
@@ -125,7 +106,6 @@
 }
 .block-h4 {
     color: #FFFFFF;
-    font-family: Livvic;
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
